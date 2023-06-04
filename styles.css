@@ -1,0 +1,193 @@
+
+.head{
+    
+    
+}
+
+
+.carousel-control-next-icon{
+    position: absolute;
+    left: -200px;
+}
+.navbar-toggler-icon{
+    position: relative;
+    left: -0px;
+}
+.kinn{
+    height: 200px;
+    display: flex;
+    flex-wrap: wrap;
+    font-family: 'Montserrat Alternates', sans-serif;
+    justify-content: center;
+    position: relative;
+   background-color: #FFFFE8;
+}
+.saloonName{
+    position: relative;
+    color:#AACB73; 
+   top:70px;
+   
+    margin-bottom: 20px;
+}
+.neck{
+    display:flex;
+    justify-content: space-evenly;
+    font-family: 'Montserrat Alternates', sans-serif;
+    flex-wrap: wrap;
+    background-color: #FFFFE8;
+}
+.schere{
+    height: 70px;
+    margin-bottom: 40px;
+    animation: perspect 10s infinite linear }
+ @keyframes perspect {
+ 0% {transform:perspective(300px) rotateY(0deg)}
+ 25% {transform:perspective(300px) rotateY(90deg)}
+ 50% {transform:perspective(300px) rotateY(180deg)}
+ 75% {transform:perspective(300px) rotateY(270deg)}
+100% {transform:perspective(300px) rotateY(360deg)}
+}
+.spruch{
+    margin-bottom: 20px;
+}
+span{
+    position: relative;
+    left: 170px;
+}
+.hairPick{
+    height: 80px;
+    margin-bottom: 40px;
+    animation: perspect 10s infinite linear }
+ @keyframes perspect {
+ 0% {transform:perspective(300px) rotateY(0deg)}
+ 25% {transform:perspective(300px) rotateY(90deg)}
+ 50% {transform:perspective(300px) rotateY(180deg)}
+ 75% {transform:perspective(300px) rotateY(270deg)}
+100% {transform:perspective(300px) rotateY(360deg)}
+}
+.brust{
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: #FFFFE8;
+    
+}
+.bild1{
+    margin-top: 40px;
+    margin-bottom: 30px;
+    width: 300px;
+    height: 300px;
+}
+
+.bauch{
+    height: 100px;
+    display: flex;
+    font-family: 'Montserrat Alternates', sans-serif;
+    justify-content: center;
+    background-color:#CDE990; 
+}
+.termin{
+ margin-bottom: 20px;
+ margin-top: 60px;
+ margin-right: 60px;
+}
+.hüfte{
+    position: relative;
+    align-items: center;
+  display: flex; 
+  flex-direction: column;
+font-family: 'Montserrat Alternates', sans-serif;
+align-content: center;
+gap:30px;
+background-color:#CDE990; 
+}
+.beine{
+ display: flex;  
+justify-content: center; 
+background-color:#CDE990;
+gap: 10px;
+height: 60px;
+
+}
+.btn-primary{
+   position: relative;
+    height: 40px;
+    
+}
+.btn-light{
+   position: relative;
+    height: 40px;
+}
+
+.rate{
+    display: flex;
+justify-content: center;
+background-color:#CDE990; 
+}
+.radio-input {
+  position: fixed;
+  opacity: 0;
+  pointer-events: none;
+}
+
+.radio-label {
+  cursor: pointer;
+  font-size: 0;
+  color: rgba(0,0,0,0.2);
+  transition: color 0.1s  ease-in-out ;
+}
+
+.radio-label:before {
+  content: "★";
+  display: inline-block;
+  font-size: 32px;
+}
+.radio-input:checked ~ .radio-label {
+  color: #ffc700;
+  color: gold;
+}
+
+.radio-label:hover,
+.radio-label:hover ~ .radio-label {
+  color: goldenrod;
+}
+
+  .last-p{
+position: relative;
+top:20px;
+  }
+  .final-logo{
+      display: flex;
+      background-color: #AACB73;
+      justify-content: space-evenly;
+      height: 50px;
+  }
+  .facebook{
+      position: relative;
+      top:10px;
+      height: 30px;
+       margin-bottom: 0px;
+  }
+  .instagram{
+      position: relative;
+      top:10px;
+      height: 30px;
+      margin-bottom: 0px;
+  }
+  .d-block{
+     width:500px; 
+  }
+  .w-100{
+      width:500px;
+  }
+  .datum{
+      width: 240px;
+  }
+  .bt{
+      margin-top: 20px;
+      bottom: 10px;
+      top: -px;
+      padding-bottom: 10px;
+  }
+
